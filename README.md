@@ -9,7 +9,9 @@ Models used: K Nearest Neighbors(KNN)
              Naive Bayes(NB)  
              Support Vector Machines(SVM)  
              Classification and Regression Trees(CART)  
-             </pre>
+             </pre>  
+###   Using Kalman Filter
+Project also studies about the Kalman filter and make use of it.The Kalman filter is a mathematical algorithm that helps in predicting the state of a system based on noisy measurements. In this case, the system is the RGB values of a blood sample, and the noisy measurements are the errors that can occur during the measurement process. The Kalman filter uses a set of equations to estimate the state of the system based on the measurements.So when we applied this modified Kalman Filter the accuracy of model came out to be 100% and we also got the hold on the ranges for RGB values for healthy and unhealthy patients for the given data set.
 # Results
 When only RGB values were considered then the accuracy of the models were between 55-60%. Considering RGB values with the information of patients the accuracy increased to 86-97%.  
 Out of the four models, CART performed the best by giving an accuracy of 97.14%.
